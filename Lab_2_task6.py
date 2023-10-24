@@ -1,29 +1,5 @@
-a = 1
-b = 1
-while a < 10:
-    print(a, end=' ')
-    a += 1
-   
-    while b < 10:
-        print(b, end=' ')
-        b += 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for i in range(1,10,1):
+    for j in range(1,10,1):
+        print((i * j), end=' ')
+        if j == 9:
+            print()
