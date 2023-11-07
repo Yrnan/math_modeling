@@ -1,8 +1,9 @@
-print(1)
-print(1)
 a = 1
 b = 1
-for _ in range(0, 20, 1):
+n = int(input("Введите количество чисел Фибоначи: "))
+print(1)
+print(1)
+for _ in range(0, n, 1):
     c = a + b
     a = b
     b = c

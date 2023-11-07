@@ -7,9 +7,3 @@ znam = q - 1
 otv = chisl / znam
 
 print(otv)
-
-
-
-
-
-
