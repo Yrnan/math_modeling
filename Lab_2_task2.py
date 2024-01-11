@@ -2,6 +2,6 @@ b = int(input("Введите первый член прогрессии: "))
 q = int(input("Введите знаменатель прогрессии: "))
 n = int(input("Введите количество членов: "))
 
-for i in range (1, n):
+for i in range (1, n+1):
     S = b*(q**(i-1))
     print(S)
