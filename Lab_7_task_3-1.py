@@ -2,6 +2,7 @@ from matplotlib.animation import FuncAnimation
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 xdata, ydata = [], []
 
 def animate(t):
@@ -12,7 +13,7 @@ def animate(t):
 
 
 if __name__ == '__main__':
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize = (7, 7))
     fly, = plt.plot([], [], '-', color='b', label='Ball')
     edge = 5
     plt.figure(figsize=(7, 7))

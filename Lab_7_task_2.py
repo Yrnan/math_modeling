@@ -15,18 +15,17 @@ def animate(i):
 
 
 if __name__ == '__main__':
-    plt.figure(figsize=(7, 7))
-    plt.axis('equal')
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(7, 7))
     ball, = plt.plot([], [], '-', color='b', label='Ball')
+    plt.axis('equal')
 
     ax.set_xlim(-6, 6)
     ax.set_ylim(-6, 6)
 
     ani = FuncAnimation(fig, 
                         animate,
-                        frames=100,
+                        frames=90,
                         interval=30
                         )
     
-    ani.save('task_2.png')
+    ani.save('task_2.gif')

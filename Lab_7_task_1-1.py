@@ -6,8 +6,8 @@ R = 1
 
 t = np.arange(0, 10, 0.01)
 
-x = R*t - R*np.sin(t)
-y = R - R*np.cos(t)
+x = R * t - R * np.sin(t)
+y = R - R * np.cos(t)
 
 
 plt.figure(figsize=(7, 7))
